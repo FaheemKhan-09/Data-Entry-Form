@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <!-- Form -->
-     <h2 style="text-align: center; color: red">DATA ENTRY FORM</h2>
+     <h2 style="text-align: center; color: red ">DATA ENTRY FORM</h2>
     <b-form @submit.prevent="submitForm">
       <b-row>
         <b-col md="6">

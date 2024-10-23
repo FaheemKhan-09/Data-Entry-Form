@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <!-- Form -->
-     <h2 style="text-align: center; color: red ">DATA ENTRY FORM</h2>
+     <h2 style="text-align: center; color: red">DATA ENTRY FORM</h2>
     <b-form @submit.prevent="submitForm">
       <b-row>
         <b-col md="6">
@@ -78,6 +78,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 
+.b-form-input{
+  background: #333;
+  border: 0;
+  padding: 16px;
+  width: 100%;
+  border-radius: 6px;
+  color: #fff;
+  width: 290px;
+}
 </style>

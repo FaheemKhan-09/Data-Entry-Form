@@ -11,7 +11,7 @@
            >
             <b-form-input 
             v-model="firstName" 
-            placeholder="Faheem"
+            placeholder="FirstName"
             >
           </b-form-input>
           </b-form-group>
@@ -21,7 +21,7 @@
            label="Last Name">
             <b-form-input 
             v-model="lastName" 
-            placeholder="Khan"
+            placeholder="LastName"
             >
           </b-form-input>
           </b-form-group>
@@ -35,7 +35,7 @@
             <b-form-input 
             v-model="email" 
             type="email"
-             placeholder="@gmail.com"
+             placeholder="email@gmail.com"
              >
             </b-form-input>
           </b-form-group>

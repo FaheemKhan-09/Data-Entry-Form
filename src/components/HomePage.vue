@@ -18,7 +18,8 @@
         </b-col>
         <b-col md="6">
           <b-form-group
-           label="Last Name">
+           label="Last Name"
+           >
             <b-form-input 
             v-model="lastName" 
             placeholder="LastName"
@@ -68,19 +69,16 @@ export default {
       firstName: '',
       lastName: '',
       email: '',
-      jobTitle: ''
+      jobTitle: '',
     };
   },
   methods: {
     submitForm(){
       this.$router.push('/thankyou');
-        
-    }
+    },
   }
 };
 </script>
-
-
 
 
 <style>
